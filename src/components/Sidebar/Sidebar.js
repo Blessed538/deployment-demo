@@ -118,10 +118,10 @@ const SidebarMenu = ({ currentUserRole }) => {
               link="/app/main"
               index="main"
               childrenLinks={[
-                // {
-                //   header: "Dashboard",
-                //   link: "/app/main/dashboard",
-                // },
+                {
+                  header: "Dashboard",
+                  link: "/app/main/dashboard",
+                },
                 {
                   header: "Analytics",
                   link: "/app/main/analytics",
