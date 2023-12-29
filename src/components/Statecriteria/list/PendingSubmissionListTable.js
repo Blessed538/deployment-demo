@@ -75,7 +75,7 @@ const PendingSubmissionListTable = (props) => {
   useEffect(() => {
     // const { dispatch } = props;
     fetchReport();
-  }, [reports]);
+  }, []);
 
   const fetchReport = () => {
     try {
